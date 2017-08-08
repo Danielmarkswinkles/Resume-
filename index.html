@@ -1,0 +1,94 @@
+---
+layout: default
+title: Nazs site
+map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.752515580102!2d115.13679481376232!3d-8.619742093805394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238567ed4351d%3A0xd4dea0277ed82fa1!2sThe+Palm+House!5e0!3m2!1sen!2sid!4v1494137618017" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+skills:
+  - name: Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut l
+    icon: check-square
+  - name: Social
+    description: Lorem ipsum dolor sim consectetur adipisicing elit, sed do eiusmod tempor incididunt ut l
+    icon: check-square
+  - name: Website
+    description: Lorem ipslor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut l
+    icon: check-square
+  - name: SEO
+    description: Loreolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut l
+    icon: check-square
+  - name: Email Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut l
+    icon: check-square
+  - name: User experience
+    description: Lorem ipolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut l
+    icon: check-square
+jobs:
+  - name: Wolters
+    position: Marketing Coordinator
+    description: i dont und it elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    icon: check-square
+  - name: Agdraft
+    position: Marketing Consultant
+    description: onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru
+    icon: check-square
+  - name: Kimberlin Education
+    position: Marketing Executive
+    description: onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru
+    icon: check-square
+---
+  <section class= "title"style="background-image: url "{{'https://media.giphy.com/media/l0Iy16fRiIApIeNxe/giphy.gif'}}/>
+   <div>
+      <h1>
+        Naz Khadem
+        <div class= "small">
+          Marketing Coordinator
+        </div>
+      </h1>
+      <p> Sydney, Australia </p>
+    </div>
+  </section>
+  <section class="outsidebox">
+    <div>
+      <!-- About me section-->
+      <h2> About Me </h2>
+      <img src="/images/beads.jpeg"/>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </section>
+  <section class="skills grid">
+    <h2 class="col-12 ">My Skills</h2>
+{% for skill in page.skills %}
+  <div class="col-4">
+    <!-- Skillone-->
+    <i class="fa fa-{{skill.icon}}" aria-hidden="true"></i>
+    <!-- tittle -->
+    <h3>{{skill.name}}</h3>
+    <p>{{skill.description}}</p>
+  </div>
+  {% endfor %}
+</section>
+  <section class="exp grid">
+    <h2 class="col-12">My experience</h2>
+{% for job in page.jobs %}
+    <i class=" col-2 fa fa-check-square" aria-hidden="true"></i>
+    <div class= "col-4">
+  <!--companynameone-->
+    <h3>{{job.name}}</h3>
+    <h4>{{job.position}}</h4>
+  </div>
+    <div class="col-6">
+    <p> {{job.description}}
+    </p>
+  </div>
+  {% endfor %}
+</section>
+<div class="map">
+{{page.map}}
+</div>
+<section class="laptop">
+  <div>
+    <h2> My Portfolio </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+</section>

@@ -1,0 +1,199 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+
+/* font styles for header and paragraph  */
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+h1,h2{ font-family: bob}
+
+a{
+  display: inline-block;
+  color:black;
+  padding:5%;
+  border-radius:15px;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#FF1493;
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: 3%;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+  padding: 0%;
+}
+
+p, a {
+  font-family: 'Raleway', sans-serif;
+  padding: 1%
+}
+
+i {
+  color: #28B463;
+}
+
+/* Sydney Australia section*/
+
+h1 .small {
+   font-size: 3rem;
+   padding: 1%;
+}
+
+img{
+  width:100px;
+  }
+
+.title div {
+  padding: 5%;
+}
+
+/*  navigation section  */
+nav{
+  min-height: 4vh;
+  font-size: 16px;
+  padding:0%;
+}
+
+.grid-spaceBetween{
+ min-height: 5vh;
+ padding: 2%;
+}
+
+/* heading of site */
+.title{
+  color:white;
+  background-color: #73C6B6;
+  padding:2%;
+  text-align: center;
+  background-image: url('https://media.giphy.com/media/l0Iy16fRiIApIeNxe/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:50vh;
+}
+
+/* About me section outsidebox */
+.outsidebox{
+  color: black;
+  background-color: grey;
+  padding: 6%;
+  margin-top: 16px;
+  border-bottom: 16px solid white;
+}|
+
+.outsidebox div{
+  background-color:white;
+  padding:2.3%;
+  text-align: center;
+}
+
+/*  the outsidebox paragraph section */
+.outsidebox p{
+  font-family: cursive;
+}
+
+div .small{
+  color: purple;
+}
+
+/*  the skills section */
+.skills{
+  padding: 0%;
+  text-align: center;
+}
+
+/* My experience section*/
+.exp{
+  background-color: #73C6B6;
+  padding: 5%;
+  margin-top: 16px;
+  border-bottom: 16px solid white;
+  }
+
+.grid{
+  padding:5%;
+}
+
+i.col-2{
+  color: white;
+  size: 1.2em;
+}
+.exp h4{
+  text-align:left;
+}
+
+/*laptop section*/
+.laptop {
+  background-image: url('../image/laptop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6%;
+  margin: 16px 0;
+}
+
+.laptop div{
+
+  background-color: rgba(236, 240,241, 0.5);
+  padding: 1.6%;
+  text-align: center;
+  opacity: 0.5%;
+  }
+
+.map iframe{
+  width: 100vw;
+  }
+
+/*footer*/
+.footer lable {
+  background-color: #73C6B6;
+  font-size: 20px;
+}
+
+label, input, textarea, button{
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 1%;
+  font-size: 21px;
+}
+
+form{
+  margin: 2% 5%;
+}
+
+footer i {
+  color: black;
+  align-items: center;
+  padding: 0%
+  font-size:20px;
+}
+
+button{
+  background-color: #CD1348;
+  margin-top: 2%;
+  color: white;
+  width: 100%;
+}
+
+button:hover{
+
+}
